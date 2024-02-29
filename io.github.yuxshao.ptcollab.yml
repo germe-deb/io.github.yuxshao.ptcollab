@@ -24,4 +24,4 @@ finish-args:
   - --device=dri
   - --socket=pulseaudio
   - --socket=x11
-  - --filesystem=host
+  - --filesystem=home
