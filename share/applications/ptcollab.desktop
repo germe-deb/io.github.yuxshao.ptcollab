@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=pxtone Collab
+Comment=A sample-based music editor where you can collaborate with friends!
+Categories=AudioVideo;Sequencer;Audio;
+
+Icon=ptcollab
+Exec=ptcollab
+Terminal=false
