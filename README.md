@@ -2,9 +2,8 @@
 
 this project is a -Successful- attempt to make PTCollab able to run in flatpak
 
-For now, you can get this working by using these commands:
+now go to https://github.com/germe-deb/flathub/tree/ptcollab
 
-```
-flatpak-builder --force-clean build-dir io.github.yuxshao.ptcollab.yml
-flatpak-builder --user --install build-dir io.github.yuxshao.ptcollab.yml
-```
+For now, you can get it working by using these commands:
+
+Soon it will be in flathub, just wait
