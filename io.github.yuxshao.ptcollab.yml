@@ -9,6 +9,15 @@ modules:
     sources:
       - type: git
         url: https://github.com/yuxshao/ptcollab.git
+  - name: share
+    buildsystem: simple
+    sources:
+      - type: dir
+        path: share
+    build-commands:
+      - rm /app/share/applications -rf
+      - rm /app/share/icons/hicolor/*/*/*
+      - cp -rf ../share /app/
 finish-args:
   - --socket=wayland
   - --share=network
